@@ -14,6 +14,8 @@
 		D41262F1223081C7006B0FC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D41262EF223081C7006B0FC6 /* LaunchScreen.storyboard */; };
 		D41262FC223081C8006B0FC6 /* TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41262FB223081C8006B0FC6 /* TwitterTests.swift */; };
 		D4126307223081C8006B0FC6 /* TwitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4126306223081C8006B0FC6 /* TwitterUITests.swift */; };
+		D4D11B6522343E4E0062D646 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D11B6422343E4E0062D646 /* LoginViewController.swift */; };
+		D4D11B6B2234B3940062D646 /* TwitterAPICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D11B6A2234B3940062D646 /* TwitterAPICaller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		D4126302223081C8006B0FC6 /* TwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4126306223081C8006B0FC6 /* TwitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUITests.swift; sourceTree = "<group>"; };
 		D4126308223081C8006B0FC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D11B6422343E4E0062D646 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D4D11B6A2234B3940062D646 /* TwitterAPICaller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TwitterAPICaller.swift; path = ../../../../Downloads/twitter_ios_starter/Twitter/TwitterAPICaller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				D41262E6223081BD006B0FC6 /* AppDelegate.swift */,
 				D41262E8223081BD006B0FC6 /* ViewController.swift */,
 				D41262EA223081BD006B0FC6 /* Main.storyboard */,
+				D4D11B6A2234B3940062D646 /* TwitterAPICaller.swift */,
 				D41262ED223081C7006B0FC6 /* Assets.xcassets */,
 				D41262EF223081C7006B0FC6 /* LaunchScreen.storyboard */,
 				D41262F2223081C7006B0FC6 /* Info.plist */,
+				D4D11B6422343E4E0062D646 /* LoginViewController.swift */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D11B6522343E4E0062D646 /* LoginViewController.swift in Sources */,
+				D4D11B6B2234B3940062D646 /* TwitterAPICaller.swift in Sources */,
 				D41262E9223081BD006B0FC6 /* ViewController.swift in Sources */,
 				D41262E7223081BD006B0FC6 /* AppDelegate.swift in Sources */,
 			);
